@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+  }
+  
+  .nav {
+    height: 50px;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+  }
+  
+  .nav-header {
+    display: inline;
+  }
+  
+  .nav-title {
+    display: inline-block;
+    padding: 10px;
+    padding-right: 50px;
+  }
+  
+  .nav-btn {
+    display: none;
+  }
+  
+  .nav-links {
+    display: inline;
+    font-size: 18px;
+  }
+
+  .a {
+    float: right;
+  }
+
+  .b {
+    float: center;
+  }
+  
+  .add {
+      color: white;
+      background-color: rgb(32, 163, 15);
+      border: none;
+      border-radius: 10px;
+      padding: 10px;
+  }
+
+  .add a{
+    color: white;
+    text-decoration: none;
+}
+
+  .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: rgb(136, 136, 136)!important;
+
+  }
+  
+  .nav-links > a:hover {
+    color: rgb(0, 0, 0)!important;
+  }
+  
+  #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:600px) {
+    .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    /* .nav-btn > label:hover,
+    #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    } */
+    .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid black;
+    }
+    .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #333;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    #nav-check:checked ~ .nav-links {
+      height: 50vh;
+    }
+  }
