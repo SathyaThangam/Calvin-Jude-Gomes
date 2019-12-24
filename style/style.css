@@ -77,7 +77,8 @@ body {
 }
 
 .bar {
-    height: 90px;
+    height: 70px;
+    padding-top: 0px;
     padding: 20px;
     background-color: #E4F5E8;
     margin: 0px!important;
@@ -96,6 +97,10 @@ body {
     border-right: 1px solid rgb(197, 243, 208);
     text-align: right;
     align-content: right;
+}
+
+.bar3 {
+    /* height: 100%; */
 }
 
 .bar1 .barImg {
@@ -140,12 +145,16 @@ body {
     'menu menu menu menu menu main main'
     'menu menu menu menu menu footer footer';
 }
-
-.grid-container > div {
-  /* background-color: rgba(255, 255, 255, 0.8); */
-  /* text-align: center; */
-  /* padding: 20px 0; */
-  /* font-size: 30px; */
+.create {
+    color: white;
+    background-color: rgb(32, 163, 15);
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+}
+.create a{
+    color: white;
+    text-decoration: none;
 }
 
 @media only screen and (max-width:768px) {
