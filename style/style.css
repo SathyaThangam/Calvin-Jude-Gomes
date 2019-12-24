@@ -4,6 +4,7 @@ body {
 
 .mainDiv {
     padding-top: 50px;
+    text-align: center;
 }
 .mainDiv .row {
     text-align: center;
@@ -49,4 +50,106 @@ body {
 
 .mockup p{
     text-align: center;
+}
+
+.loadMore{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.938);
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+
+.loadMoreA{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.loadMoreA :hover{
+    background-color: rgba(224, 224, 224, 0.938);
+    color: black!important;
+}
+
+.likebar {
+    margin-top: 20px;
+    background-color: #E4F5E8;
+}
+
+.bar {
+    height: 90px;
+    padding: 20px;
+    background-color: #E4F5E8;
+    margin: 0px!important;
+    display: inline-block;
+}
+
+.bar1 {
+    width: 43vw;
+    border-right: 1px solid rgb(197, 243, 208);
+    text-align: right;
+    align-content: right;
+}
+
+.bar2 {
+    width: 30vw;
+    border-right: 1px solid rgb(197, 243, 208);
+    text-align: right;
+    align-content: right;
+}
+
+.bar1 .barImg {
+    text-align: center;
+    justify-content: center;
+    /* padding-top: 30px; */
+    margin-left: 70px;
+    padding-left: 70px;
+}
+
+.bar1 .barContent p{
+    text-align: left;
+    margin: 0px;
+    font-size: 0.9rem;
+}
+
+.bar2 .barImg {
+    text-align: center;
+    justify-content: center;
+    padding-right: 20px;
+    /* margin-left: 70px; */
+    /* padding-left: 70px; */
+}
+
+.bar2 .barContent p{
+    text-align: left;
+    margin: 0px;
+    font-size: 0.9rem;
+}
+
+.barContent2 p {
+    color: rgb(131, 131, 131);
+}
+
+.barImg { grid-area: menu; }
+.barContent1 { grid-area: main; }
+.barContent2 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'menu menu menu menu menu main main'
+    'menu menu menu menu menu footer footer';
+}
+
+.grid-container > div {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* text-align: center; */
+  /* padding: 20px 0; */
+  /* font-size: 30px; */
+}
+
+@media only screen and (max-width:768px) {
+    .mockup {
+        width: 400px;
+    }
 }

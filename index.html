@@ -16,8 +16,8 @@
         <div class="nav-header">
             <div class="nav-title">
                 <img src="./images/logo.png" height="30px" width="150px">
-                <button class="follow"><img src="./images/icons/like.png" height="15px" width="15px"> Follow</button>
-                <button class="like"><img src="./images/icons/twitter.png" height="13px" width="13px"> Like</button>
+                <button class="follow"><img src="./images/icons/twitter.png" height="15px" width="15px"> Follow</button>
+                <button class="like"><img src="./images/icons/like.png" height="13px" width="13px"> Like</button>
             </div>
         </div>
         <div class="nav-btn">
@@ -28,26 +28,26 @@
             </label>
         </div>
 
-        <div class="nav-links b">
+        <div class="nav-links b onlyLarge">
             <a href="">Gallery</a>
             <a href="">My Favs</a>
         </div>
-        <div class="nav-links a">
+        <div class="nav-links a onlyLarge">
             <input type="text" placeholder="Search...">
             <a href="">Login</a>
             <button class="add"><a href="">Add Website</a></button>
         </div>
 
-        <!-- <div class="nav-links">
+        <div class="onlySmall nav-links">
             <a href="">Gallery</a>
             <a href="">My Favs</a>
-            <input type="text" placeholder="Search...">
             <a href="">Login</a>
             <button class="add"><a href="">Add Website</a></button>
-        </div> -->
+            <input type="text" placeholder="Search...">
+        </div>
     </div>
 
-    <div class="subMenu">
+    <div class="subMenu onlyLarge">
         <div class="nav-links">
             <a href="" active>All</a>
             <a href="">Landing</a>
@@ -55,6 +55,14 @@
             <a href="">Blogs</a>
             <a href="">Stores</a>
             <a href="">Others</a>
+            <button class="sort" style="float: right;"><a href="">Tags</a></button>
+            <button class="tags" style="float: right;"><a href="">Sort by: Recently Added</a></button>
+        </div>
+    </div>
+
+    <div class="subMenu onlySmall">
+        <div class="nav-links">
+            <button class="sort" style="float: left;"><a href="">All Categories</a></button>
             <button class="sort" style="float: right;"><a href="">Tags</a></button>
             <button class="tags" style="float: right;"><a href="">Sort by: Recently Added</a></button>
         </div>
@@ -114,7 +122,32 @@
                 <span class="likes">5</span>
             </div>
         </div>
+        <a href="" class="loadMoreA"><button class="loadMore">Load more Dope stuff...</button> </a>
     </div>
+
+     <!-- <div class="likebar">
+        <div class="bar bar1">
+            <div class="grid-container">
+                <div class="barImg"><img src="./images/web1.png" height="40px" width="40px"></div>
+                <div class="barContent barContent1"><p><b>Promote your work</b></p></div>
+                <div class="barContent barContent2"><p>Add your site and inspire others with your design.</p></div>
+            </div>
+        </div>
+        <div class="bar bar2">
+            <div class="grid-container">
+                <div class="barImg"><img src="./images/web1.png" height="40px" width="40px"></div>
+                <div class="barContent barContent1"><p><b>Save your favs</b></p></div>
+                <div class="barContent barContent2"><p>Keep inspirations that you love in one place.</p></div>
+            </div>
+        </div> -->
+        <!-- <div class="bar bar2">
+            <p>This is one beautiful website</p>
+        </div>
+        <div class="bar bar3">
+            <p>This is one beautiful website</p>
+        </div> -->
+    </div>
+
 
     <footer class="footer">
         <div class="row">
@@ -122,21 +155,25 @@
                 <img src="./images/logo.png" height="30px" width="150px">
                 <p class="subtitle">The homeland for fine websites.</p>
                 <p>We collect awesome websites to help creatives find inspiration & motivation to do rad stuff.</p><br>
-                <span><button class="icons"><img src="./images/icons/tweet.png" alt="" height="15px" width="15px"></button></span>
-                <span><button class="icons"><img src="./images/icons/fb.png" alt=""  height="15px" width="15px"></button></span>
-                <span><button class="icons"><img src="./images/icons/rss.png" alt=""  height="15px" width="15px"></button></span>
-                <span><button class="donate">Donate</button></span>
+                <span><button class="icons"><img src="./images/icons/twitter.png" alt="" height="15px"
+                            width="15px"></button></span>
+                <span><button class="icons"><img src="./images/icons/fb.png" alt="" height="15px"
+                            width="15px"></button></span>
+                <span><button class="icons"><img src="./images/icons/rss.png" alt="" height="15px"
+                            width="15px"></button></span>
+                <span><button class="donate"><b>Donate</b></button></span>
             </div>
             <div class="col col2">
-                <button class="footer-btn"><a>About Us</a></button>
-                <button class="footer-btn"><a>Our Guidelines</a></button>
-                <button class="footer-btn"><a>Contact Us</a></button>
-                <button class="footer-btn"><a>Yes, We use cookies</a></button>
-                <button class="footer-btn"><a>Privacy & Terms</a></button>
+                <a class="footer-btn-a"><button class="footer-btn">About Us</button></a>
+                <a class="footer-btn-a"><button class="footer-btn">Our Guidelines</button></a>
+                <a class="footer-btn-a"><button class="footer-btn">Contact Us</button></a>
+                <a class="footer-btn-a"><button class="footer-btn">Yes, We use cookies</button></a>
+                <a class="footer-btn-a"><button class="footer-btn">Privacy & Terms</button></a>
             </div>
             <div class="col col3">
                 <p class="black">The best websites right in your inbox</p>
-                <p>We send you a fresh package of inspiration from around the web. No spam, only quality stuff. Promise. :)</p><br>
+                <p>We send you a fresh package of inspiration from around the web. No spam, only quality stuff. Promise.
+                    :)</p><br>
                 <input type="text" placeholder="Your e-mail...">
                 <button class="submit">Subscribe</button>
             </div>
