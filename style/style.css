@@ -1,0 +1,893 @@
+@font-face {
+    font-family: "HouschkaRounded";
+    src: url("./../fonts/HouschkaRoundedMedium.ttf");
+}
+
+body {
+    font-family: 'HouschkaRounded';
+    font-size: 18px;
+    color: #9b9898;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+#landingPage .landingPageButton a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+#landingPage .landingPageButton1 a {
+    background-color: #93d9f8;
+}
+#landingPage .landingPageButton2 a {
+    background-color: #308097;
+}
+
+#beAStar .content p {
+    line-height: 1.5rem;
+    color: white;
+}
+#beAStar .beAStarButton {
+    background: url(./../images/buttonBackgrounds/pinkDown.png);
+    background-size: 100% 100%;
+    border: none;
+    padding: 10px 40px 10px 40px;
+}
+#beAStar .beAStarButton :hover {
+    color: #000547!important;
+}
+#beAStar .beAStarButton a {
+    background-color: #e32783;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+#undefeated {
+    min-height: 130vh!important;
+    background: url(./../images/undefeated.jpg) center top no-repeat;
+}
+#undefeated .quote {
+    padding-left: 100px;
+    color: white;
+    width: 400px;
+    font-size: 20px;
+}
+#undefeated .quote img {
+    position: relative;
+    padding: 0px;
+    right: 60px;
+    top: 65px;
+    height: 40px;
+}
+#undefeated .sub-quote {
+    font-size: 1rem;
+}
+#undefeated img {
+    padding: 10px;
+}
+#undefeated .undefeatedButton {
+    background: url(./../images/buttonBackgrounds/yellowDown.png);
+    background-size: 100% 100%;
+    border: none;
+    padding: 10px 40px 10px 40px;
+}
+#undefeated .undefeatedButton :hover {
+    color: #969696!important;
+}
+#undefeated .undefeatedButton a {
+    background-color: #f8e21f;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+#undefeated .vertical-align {
+    height: 150px;
+}
+#academy {
+    min-height: 130vh!important;
+    background: url(./../images/academyLeft.jpg) 0px bottom no-repeat;
+}
+#academy .academyButton {
+    position: relative;
+    border: none;
+    padding: 10px 20px 10px 20px;
+}
+#academy .academyButton :hover {
+    color: #000547!important;
+}
+#academy .academyButton1 {
+    background: url(./../images/buttonBackgrounds/darkBlueDown.png);
+    background-size: 100% 100%;
+    /* bottom: 125px; */
+    /* left: 800px; */
+}
+#academy .academyButton2 {
+    background: url(./../images/buttonBackgrounds/pinkDown.png);
+    background-size: 100% 100%;
+    /* bottom: 125px; */
+    /* left: 800px; */
+}
+#academy .academyButton3 {
+    background: url(./../images/buttonBackgrounds/yellowDown.png);
+    background-size: 100% 100%;
+    /* bottom: 125px; */
+    /* left: 800px; */
+}
+#academy .academyButton a {
+    text-decoration: none;
+    font-size: 22px;
+}
+#academy .academyButton1 a {
+    background-color: #308097;
+    color: white;
+}
+#academy .academyButton2 a {
+    background-color: #e32783;
+    color: white;
+}
+#academy .academyButton3 a {
+    background-color: #f8e21f;
+    color: black;
+}
+
+#academy .awards p {
+    line-height: 1.5rem;
+    font-size: 18px;
+}
+#doSomething {
+    height: 130vh!important;
+    background: url(./../images/doSomethinLeft.jpg) 0 bottom no-repeat;
+}
+#doSomething .header {
+    padding-left: 250px;
+    padding-bottom: 0px;
+}
+#doSomething .quote {
+    font-size: 20px;
+    position: relative;
+    top: 120px;
+    left: 300px;
+    width: 350px;
+    line-height: 1.5rem;
+}
+#doSomething .doSomethingButton {
+    display: block;
+    position: relative;
+    border: none;
+    padding: 10px 20px 10px 20px;
+}
+#doSomething .doSomethingButton :hover {
+    color: #000547!important;
+}
+#doSomething .doSomethingButton1 {
+    background: url(./../images/buttonBackgrounds/darkBlueDown.png);
+    background-size: 100% 100%;
+}
+#doSomething .doSomethingButton2 {
+    background: url(./../images/buttonBackgrounds/greenDown.png);
+    background-size: 100% 100%;
+}
+#doSomething .doSomethingButton3 {
+    background: url(./../images/buttonBackgrounds/pinkDown.png);
+    background-size: 100% 100%;
+}
+#doSomething .doSomethingButton4 {
+    background: url(./../images/buttonBackgrounds/yellowDown.png);
+    background-size: 100% 100%;
+}
+#doSomething .doSomethingButton5 {
+    background: url(./../images/buttonBackgrounds/lightBlueDown.png);
+    background-size: 100% 100%;
+}
+#doSomething .doSomethingButton a {
+    text-decoration: none;
+    font-size: 22px;
+}
+#doSomething .doSomethingButton1 a {
+    background-color: #308097;
+    color: white;
+}
+#doSomething .doSomethingButton2 a {
+    background-color: #bdcb41;
+    color: white;
+}
+#doSomething .doSomethingButton3 a {
+    background-color: #e32783;
+    color: white;
+}
+#doSomething .doSomethingButton4 a {
+    background-color: #f8e21f;
+    color: black;
+}
+#doSomething .doSomethingButton5 a {
+    background-color: #93d9f8;
+    color: white;
+}
+#doSomething .quote2 {
+    color: black;
+    position: relative;
+    bottom: 200px;
+    left: 300px;
+    width: 250px;
+    line-height: 1.7rem;
+    font-size: 24px;
+}
+#doSomething .quoteImg1 {
+    position: relative;
+    bottom: 140px;
+    left: 250px;
+    height: 30px;
+}
+#doSomething .quoteImg2 {
+    position: relative;
+    bottom: 250px;
+    left: 450px;
+    height: 30px;
+}
+
+#share {
+    min-height: 160vh!important;
+    background: url(./../images/shareLeft.jpg) 0 bottom no-repeat;
+}
+#share .header {
+    padding-left: 150px;
+    padding-top: 100px;
+    line-height: 1.5rem;
+}
+#share .shareButton {
+    background: url(./../images/buttonBackgrounds/greySmall.png);
+    background-size: 100% 100%;
+    border: none;
+    padding: 10px 40px 10px 40px;
+}
+#share .shareButton :hover {
+    color: #969696!important;
+}
+#share .shareButton a {
+    background-color: #4d4d4d;
+    text-decoration: none;
+    color: yellow;
+    font-size: 18px;
+}
+
+#aboutUs {
+    min-height: 130vh!important;
+    background: url(./../images/aboutUs.jpg) left bottom no-repeat;
+    background-color: black;
+}
+#aboutUs .header {
+    padding-left: 250px;
+    padding-bottom: 0px;
+}
+
+#aboutUs .secondHalf {
+    margin-top: -20%;
+    margin-left: 30%;
+    color: yellow;
+    width: 60%;
+    line-height: 1.5rem;
+}
+#aboutUs .aboutUsButton {
+    display: block;
+    position: relative;
+    border: none;
+    padding: 10px 20px 10px 20px;
+}
+#aboutUs .aboutUsButton :hover {
+    color: #000547!important;
+}
+#aboutUs .aboutUsButton1 {
+    background: url(./../images/buttonBackgrounds/darkBlueDown.png);
+    background-size: 100% 100%;
+}
+#aboutUs .aboutUsButton2 {
+    background: url(./../images/buttonBackgrounds/greenDown.png);
+    background-size: 100% 100%;
+}
+#aboutUs .aboutUsButton3 {
+    background: url(./../images/buttonBackgrounds/pinkDown.png);
+    background-size: 100% 100%;
+}
+#aboutUs .aboutUsButton4 {
+    background: url(./../images/buttonBackgrounds/yellowDown.png);
+    background-size: 100% 100%;
+}
+#aboutUs .aboutUsButton5 {
+    background: url(./../images/buttonBackgrounds/lightBlueDown.png);
+    background-size: 100% 100%;
+}
+#aboutUs .aboutUsButton a {
+    text-decoration: none;
+    font-size: 22px;
+}
+#aboutUs .aboutUsButton1 a {
+    background-color: #308097;
+    color: white;
+}
+#aboutUs .aboutUsButton2 a {
+    background-color: #bdcb41;
+    color: white;
+}
+#aboutUs .aboutUsButton3 a {
+    background-color: #e32783;
+    color: white;
+}
+#aboutUs .aboutUsButton4 a {
+    background-color: #f8e21f;
+    color: black;
+}
+#aboutUs .aboutUsButton5 a {
+    background-color: #93d9f8;
+    color: white;
+}
+#aboutUs .quote2 {
+    color: black;
+    position: relative;
+    bottom: 200px;
+    left: 300px;
+    width: 250px;
+    line-height: 1.7rem;
+    font-size: 24px;
+}
+#aboutUs .quoteImg1 {
+    position: relative;
+    bottom: 140px;
+    left: 250px;
+    height: 30px;
+}
+#aboutUs .quoteImg2 {
+    position: relative;
+    bottom: 250px;
+    left: 450px;
+    height: 30px;
+}
+
+@media screen and (min-width:1200px) {
+    .onlyLarge {
+        display: block;
+    }
+    .row {
+        display: flex;
+    }
+    #landingPage {
+        height: 100vh!important;
+        background: url(./../images/landing.png) 0 35px no-repeat;
+    }
+    #landingPage .content {
+        margin-left: 30vw;
+        padding-top: 20vh;
+        padding-right: 15vw;
+    }
+    #landingPage .content .header {
+        height: 35vh;
+        width: 40vw;
+    }
+    #landingPage .content p {
+        line-height: 1.5rem;
+    }
+    #landingPage .content img {
+        height: 100%;
+        width: 100%;
+    }
+    #landingPage .landingPageButton {
+        position: relative;
+        border: none;
+        padding: 10px 20px 10px 20px;
+    }
+    #landingPage .landingPageButton :hover {
+        color: #000547!important;
+    }
+    #landingPage .landingPageButton1 {
+        background: url(./../images/buttonBackgrounds/lightBlueDown.png);
+        background-size: 100% 100%;
+        bottom: 100px;
+        left: 350px;
+    }
+    #landingPage .landingPageButton2 {
+        background: url(./../images/buttonBackgrounds/darkBlueDown.png);
+        background-size: 100% 100%;
+        bottom: 40px;
+        right: 57px;
+    }
+    #landingPage .landingPageButton a {
+        text-decoration: none;
+        color: white;
+        font-size: 22px;
+    }
+    #landingPage .landingPageButton1 a {
+        background-color: #93d9f8;
+    }
+    #landingPage .landingPageButton2 a {
+        background-color: #308097;
+    }
+    #beAStar {
+        min-height: 120vh!important;
+        background: url(./../images/star.jpg) 0 0 repeat-x;
+        padding-top: 40px;
+    }
+    #beAStar .left-img {
+        height: 100vh;
+    }
+    #beAStar .header {
+        height: 100vh;
+        width: 60%;
+        padding-top: 60px;
+    }
+    #beAStar .right-img {
+        height: 105vh;
+    }
+    #beAStar .right-img img {
+        height: 100%;
+        width: 130%;
+    }
+    #beAStar .left-img img {
+        height: 110%;
+        width: 150%;
+    }
+    #beAStar .header {
+        margin-left: 100px;
+        /* width: 90%; */
+    }
+    #beAStar .header img {
+        width: 50%;
+    }
+    #academy .header {
+        padding-left: 100px;
+        color: black;
+        width: 500px;
+    }
+    #academy img {
+        margin-top: 20px;
+    }
+    #academy .awards {
+        width: 60%;
+        margin-left: 400px;
+        padding-left: 100px;
+    }
+    
+    #academy .academyButton {
+        position: relative;
+        border: none;
+        padding: 10px 20px 10px 20px;
+    }
+    #academy .academyButton :hover {
+        color: #000547!important;
+    }
+    #academy .academyButton1 {
+        bottom: 125px;
+        left: 800px;
+    }
+    #academy .academyButton2 {
+        bottom: 125px;
+        left: 800px;
+    }
+    #academy .academyButton3 {
+        bottom: 125px;
+        left: 800px;
+    }
+    #academy .academyButton a {
+        text-decoration: none;
+        font-size: 22px;
+    }
+    #academy .academyButton1 a {
+        background-color: #308097;
+        color: white;
+    }
+    #academy .academyButton2 a {
+        background-color: #e32783;
+        color: white;
+    }
+    #academy .academyButton3 a {
+        background-color: #f8e21f;
+        color: black;
+    }
+    #doSomething .doSomethingButton1 {
+        bottom: 350px;
+        left: 650px;
+    }
+    #doSomething .doSomethingButton2 {
+        bottom: 350px;
+        left: 650px;
+    }
+    #doSomething .doSomethingButton3 {
+        bottom: 350px;
+        left: 650px;
+    }
+    #doSomething .doSomethingButton4 {
+        bottom: 350px;
+        left: 650px;
+    }
+    #doSomething .doSomethingButton5 {
+        bottom: 350px;
+        left: 650px;
+    }
+    #aboutUs .quote {
+        color: white;
+        font-size: 20px;
+        position: relative;
+        top: 300px;
+        right: 200px;
+        width: 150px;
+        line-height: 2rem;
+    }
+    
+    #help {
+        height: 140vh!important;
+        background: url(./../images/helpImageLeft.jpg) left top no-repeat;
+        background-color: white;
+    }
+    #help .header {
+        padding-top: 200px;
+        padding-left: 250px;
+        padding-bottom: 0px;
+    }
+    #help .quote {
+        color: white;
+        font-size: 20px;
+        position: relative;
+        top: 300px;
+        right: 200px;
+        line-height: 2rem;
+    }
+    #help .secondHalf {
+        margin-top: 20px;
+        margin-left: 60%;
+        color: black;
+        width: 100%;
+        line-height: 1.5rem;
+    }
+    #help .aboutUsButton {
+        display: block;
+        position: relative;
+        border: none;
+        padding: 10px 20px 10px 20px;
+    }
+    #help .aboutUsButton :hover {
+        color: #000547!important;
+    }
+    #help .aboutUsButton1 {
+        background: url(./../images/buttonBackgrounds/darkBlueDown.png);
+        background-size: 100% 100%;
+        margin-bottom: 10px;
+    }
+    #help .aboutUsButton2 {
+        background: url(./../images/buttonBackgrounds/greenDown.png);
+        background-size: 100% 100%;
+        margin-bottom: 10px;
+    }
+    #help .aboutUsButton3 {
+        background: url(./../images/buttonBackgrounds/pinkDown.png);
+        background-size: 100% 100%;
+        margin-bottom: 10px;
+    }
+    #help .aboutUsButton4 {
+        background: url(./../images/buttonBackgrounds/yellowDown.png);
+        background-size: 100% 100%;
+        margin-bottom: 10px;
+    }
+    #help .aboutUsButton5 {
+        background: url(./../images/buttonBackgrounds/lightBlueDown.png);
+        background-size: 100% 100%;
+        margin-bottom: 10px;
+    }
+    #help .aboutUsButton6 {
+        background: url(./../images/buttonBackgrounds/darkBlueDown.png);
+        background-size: 100% 100%;
+        position: relative;
+        left: 400px;
+        bottom: 280px;
+        margin-bottom: 10px;
+    }
+    #help .aboutUsButton7 {
+        background: url(./../images/buttonBackgrounds/greenDown.png);
+        background-size: 100% 100%;
+        position: relative;
+        left: 400px;
+        bottom: 280px;
+        margin-bottom: 10px;
+    }
+    #help .aboutUsButton8 {
+        background: url(./../images/buttonBackgrounds/pinkDown.png);
+        background-size: 100% 100%;
+        position: relative;
+        left: 400px;
+        bottom: 280px;
+        margin-bottom: 10px;
+    }
+    #help .aboutUsButton9 {
+        background: url(./../images/buttonBackgrounds/yellowDown.png);
+        background-size: 100% 100%;
+        position: relative;
+        left: 400px;
+        bottom: 280px;
+        margin-bottom: 10px;
+    }
+    #help .aboutUsButton10 {
+        background: url(./../images/buttonBackgrounds/lightBlueDown.png);
+        background-size: 100% 100%;
+        position: relative;
+        left: 400px;
+        bottom: 280px;
+        margin-bottom: 10px;
+    }
+    #help .aboutUsButton a {
+        text-decoration: none;
+        font-size: 22px;
+    }
+    #help .aboutUsButton1 a {
+        background-color: #308097;
+        color: white;
+    }
+    #help .aboutUsButton2 a {
+        background-color: #bdcb41;
+        color: white;
+    }
+    #help .aboutUsButton3 a {
+        background-color: #e32783;
+        color: white;
+    }
+    #help .aboutUsButton4 a {
+        background-color: #f8e21f;
+        color: black;
+    }
+    #help .aboutUsButton5 a {
+        background-color: #93d9f8;
+        color: white;
+    }
+    #help .aboutUsButton6 a {
+        background-color: #308097;
+        color: white;
+    }
+    #help .aboutUsButton7 a {
+        background-color: #bdcb41;
+        color: white;
+    }
+    #help .aboutUsButton8 a {
+        background-color: #e32783;
+        color: white;
+    }
+    #help .aboutUsButton9 a {
+        background-color: #f8e21f;
+        color: black;
+    }
+    #help .aboutUsButton10 a {
+        background-color: #93d9f8;
+        color: white;
+    }
+}
+
+@media (max-width:1200px) {
+    #landingPage {
+        min-height: 100vh!important;
+        background: url(./../images/landing.png) 0 35px no-repeat;
+    }
+    #landingPage .content {
+        margin-left: 30vw;
+        padding-top: 20vh;
+        /* padding-right: 15vw; */
+    }
+    #landingPage .content .header {
+        height: 250px;
+        width: 500px;
+    }
+    #landingPage .content p {
+        padding-top: 50px;
+        line-height: 1.5rem;
+    }
+    #landingPage .content img {
+        height: 100%;
+        width: 100%;
+    }
+    #landingPage .landingPageButton {
+        display: block;
+        position: relative;
+        border: none;
+        padding: 10px 20px 10px 20px;
+    }
+    #landingPage .landingPageButton :hover {
+        color: #000547!important;
+    }
+    #landingPage .landingPageButton1 {
+        background: url(./../images/buttonBackgrounds/lightBlueDown.png);
+        background-size: 100% 100%;
+    }
+    #landingPage .landingPageButton2 {
+        background: url(./../images/buttonBackgrounds/darkBlueDown.png);
+        background-size: 100% 100%;
+    }
+    
+    #beAStar {
+        min-height: 130vh!important;
+        background: url(./../images/star.jpg) 0 0 repeat-x;
+        padding-top: 40px;
+    }
+    #beAStar .header {
+        height: 100vh;
+        width: 80%;
+    }
+    #beAStar .header {
+        margin-left: 100px;
+    }
+    #beAStar .header img {
+        width: 50%;
+    }
+
+    #undefeated .quote {
+        padding-left: 100px;
+        color: white;
+        font-size: 20px;
+    }
+    #undefeated .header img{
+        width: 80vw;
+    }
+    #undefeated .vertical-align {
+        height: 100px;
+    }
+    #academy .header {
+        padding-left: 100px;
+        color: black;
+        width: 500px;
+    }
+    #academy img {
+        margin-top: 20px;
+    }
+    #academy .awards {
+        padding-left: 100px;
+    }
+    #aboutUs .quote {
+        color: white;
+        font-size: 20px;
+        position: relative;
+        top: 700px;
+        right: 200px;
+        width: 300px;
+        line-height: 2rem;
+    }
+    #aboutUs .header img{
+        padding-top: 30px;
+        width: 90%;
+    }
+    #help {
+        min-height: 170vh!important;
+        background: url(./../images/helpImageLeft.jpg) left top no-repeat;
+        background-color: white;
+    }
+    #help .header {
+        padding-top: 200px;
+        /* padding-left: -250px; */
+        padding-bottom: 0px;
+        width: 70%;
+    }
+    #help .quote {
+        color: white;
+        font-size: 20px;
+        position: relative;
+        top: 300px;
+        right: 200px;
+        line-height: 2rem;
+    }
+    #help .secondHalf {
+        margin-top: 20px;
+        margin-left: 60%;
+        color: black;
+        width: 100%;
+        line-height: 1.5rem;
+    }
+    #help .aboutUsButton {
+        display: block;
+        position: relative;
+        border: none;
+        padding: 10px 20px 10px 20px;
+    }
+    #help .aboutUsButton :hover {
+        color: #000547!important;
+    }
+    #help .aboutUsButton1 {
+        background: url(./../images/buttonBackgrounds/darkBlueDown.png);
+        background-size: 100% 100%;
+        margin-bottom: 10px;
+    }
+    #help .aboutUsButton2 {
+        background: url(./../images/buttonBackgrounds/greenDown.png);
+        background-size: 100% 100%;
+        margin-bottom: 10px;
+    }
+    #help .aboutUsButton3 {
+        background: url(./../images/buttonBackgrounds/pinkDown.png);
+        background-size: 100% 100%;
+        margin-bottom: 10px;
+    }
+    #help .aboutUsButton4 {
+        background: url(./../images/buttonBackgrounds/yellowDown.png);
+        background-size: 100% 100%;
+        margin-bottom: 10px;
+    }
+    #help .aboutUsButton5 {
+        background: url(./../images/buttonBackgrounds/lightBlueDown.png);
+        background-size: 100% 100%;
+        margin-bottom: 10px;
+    }
+    #help .aboutUsButton6 {
+        background: url(./../images/buttonBackgrounds/darkBlueDown.png);
+        background-size: 100% 100%;
+        position: relative;
+        /* bottom: 280px; */
+        margin-bottom: 10px;
+    }
+    #help .aboutUsButton7 {
+        background: url(./../images/buttonBackgrounds/greenDown.png);
+        background-size: 100% 100%;
+        position: relative;
+        /* bottom: 280px; */
+        margin-bottom: 10px;
+    }
+    #help .aboutUsButton8 {
+        background: url(./../images/buttonBackgrounds/pinkDown.png);
+        background-size: 100% 100%;
+        position: relative;
+        /* bottom: 280px; */
+        margin-bottom: 10px;
+    }
+    #help .aboutUsButton9 {
+        background: url(./../images/buttonBackgrounds/yellowDown.png);
+        background-size: 100% 100%;
+        position: relative;
+        /* bottom: 280px; */
+        margin-bottom: 10px;
+    }
+    #help .aboutUsButton10 {
+        background: url(./../images/buttonBackgrounds/lightBlueDown.png);
+        background-size: 100% 100%;
+        position: relative;
+        /* left: 400px; */
+        /* bottom: 280px; */
+        margin-bottom: 10px;
+    }
+    #help .aboutUsButton a {
+        text-decoration: none;
+        font-size: 22px;
+    }
+    #help .aboutUsButton1 a {
+        background-color: #308097;
+        color: white;
+    }
+    #help .aboutUsButton2 a {
+        background-color: #bdcb41;
+        color: white;
+    }
+    #help .aboutUsButton3 a {
+        background-color: #e32783;
+        color: white;
+    }
+    #help .aboutUsButton4 a {
+        background-color: #f8e21f;
+        color: black;
+    }
+    #help .aboutUsButton5 a {
+        background-color: #93d9f8;
+        color: white;
+    }
+    #help .aboutUsButton6 a {
+        background-color: #308097;
+        color: white;
+    }
+    #help .aboutUsButton7 a {
+        background-color: #bdcb41;
+        color: white;
+    }
+    #help .aboutUsButton8 a {
+        background-color: #e32783;
+        color: white;
+    }
+    #help .aboutUsButton9 a {
+        background-color: #f8e21f;
+        color: black;
+    }
+    #help .aboutUsButton10 a {
+        background-color: #93d9f8;
+        color: white;
+    }
+    #footer {
+        min-height: 120vh!important;
+    }
+}
