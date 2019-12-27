@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OYO Rooms</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="./style/general-style.css">
+    <link rel="stylesheet" href="./style/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+    <script src="./script/script.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">OYO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form autocomplete="off" class="nav-forms form-inline my-2 my-lg-0">
+
+                <div class="dropdown">
+                    <input id="dropdownMenuButton" class="form-control mr-sm-2 dropdown-toggle" type="search"
+                        placeholder="Search by City, Hotel" aria-label="Search" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false" required />
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    </div>
+                </div>
+
+                <!-- <input id="mainSearch" class="form-control mr-sm-2" type="search" placeholder="Search by City, Hotel"
+                    aria-label="Search" required/> -->
+
+                <input class="form-control mr-sm-2" id="datePicker1" width="276" placeholder="From Date" required />
+                <input class="form-control mr-sm-2" id="datePicker2" width="276" placeholder="To Date" required />
+                <input class="form-control mr-sm-2" type="text" id="guest" width="276" value="1 Room - 1 Guest" />
+
+                <div id="roomSelector" class="container">
+                    <div class="row">
+                        <h4 class="rooms">Rooms</h4>
+                        <h4 class="guests">Guests</h4>
+                    </div>
+                    <div class="row">
+                        <h5 id="roomName">Room 1</h5>
+                        <button type="button" id="decrement" class="btn btn-primary">-</button>
+                        <h5 id="roomCount">1</h5>
+                        <button type="button" id="increment" class="btn btn-primary">+</button>
+                    </div>
+                </div>
+                
+                <button id="contentSearch" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!-- <div id="roomSelector" class="container">
+        <div class="row">
+            <h4 class="rooms">Rooms</h4>
+            <h4 class="guests">Guests</h4>
+        </div>
+        <div class="row">
+            <h5 id="roomName">Room 1</h5>
+            <button type="button" id="decrement" class="create btn btn-primary">-</button>
+            <h5 id="roomCount">1</h5>
+            <button id="increment" class="btn btn-primary">+</button>
+        </div>
+    </div> -->
+    <div id="landingPage" class="container">
+        <div class="row">
+            <div class="pageTitle">
+                <!-- <h3>11 OYOs in Bangalore, Karnataka, India</h3> -->
+            </div>
+        </div>
+        <div id="landingPage">
+            <!-- <div class="row cards">
+                <div class="col">
+                    <img src="./images/PicsArt_12-20-01.21.37.png" alt="" height="250px" width="400px">
+                </div>
+                <div class="col">
+                    <h3>Grand Residency</h3>
+                    <h4>Area 12354</h4>
+                    <h2>$1234</h2>
+                    <p>per room per night</p>
+                    <button class="btn btn-primary">Book Now</button>
+                </div>
+            </div>
+            <div class="row cards">
+                <div class="col">
+                    <img src="./images/PicsArt_12-20-01.21.37.png" alt="" height="250px" width="400px">
+                </div>
+                <div class="col">
+                    <h3>Grand Residency</h3>
+                    <h4>Area 12354</h4>
+                    <h2>$1234</h2>
+                    <p>per room per night</p>
+                    <button class="btn btn-primary">Book Now</button>
+                </div>
+            </div> -->
+        </div>
+
+    </div>
+</body>
+
+</html>

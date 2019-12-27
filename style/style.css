@@ -1,0 +1,28 @@
+#roomSelector {
+    background-color: white;
+    display: block;
+    padding: 20px;
+    box-shadow: 1px 1px 10px 1px rgba(63, 63, 63, 0.438);
+    width: 230px;
+    position: absolute;
+    right: 255px;
+    top: 50px;
+    z-index: 1111;
+}
+
+#roomSelector h4, h5{
+    padding: 10px;
+}
+
+#roomSelector button {
+    color: white;
+    padding: 10px 10px 10px 10px!important;
+    margin: 0px;
+}
+
+.cards {
+    margin-top: 10px;
+    padding-top: 30px;
+    height: 50vh;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.247);
+}
