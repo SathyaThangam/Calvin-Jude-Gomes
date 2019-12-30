@@ -1,0 +1,101 @@
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item5 { grid-area: footer1; }
+.item6 { grid-area: footer2; }
+.item7 { grid-area: footer3; }
+.item8 { grid-area: footer4; }
+
+.grid-container {
+    height: 80vh;
+  display: grid;
+  grid-template-areas:
+    'menu main main main'
+    'footer1 footer2 footer3 footer4';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item2 {
+    background-color: tomato;
+    color: white;
+    text-align: left!important;
+    padding: 10px!important;
+}
+
+.item3 {
+    background-color: lightblue;
+    color: white;
+    text-align: left!important;
+    padding: 10px!important;
+}
+
+.item5 {
+    background-color: greenyellow;
+    color: white;
+    text-align: left!important;
+    padding: 10px!important;
+}
+
+.item6 {
+    background-color: blue;
+    color: white;
+    text-align: left!important;
+    padding: 10px!important;
+}
+
+.item7 {
+    background-color: pink;
+    color: white;
+    text-align: left!important;
+    padding: 10px!important;
+}
+
+.item8 {
+    background-color: yellow;
+    color: white;
+    text-align: left!important;
+    padding: 10px!important;
+}
+
+.item2 p{
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 3.5rem;
+}
+
+.item3 p{
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 4.5rem;
+}
+
+.item5 p{
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 3.5rem;
+}
+
+.item6 p{
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 3.5rem;
+}
+
+.item7 p{
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 3.5rem;
+}
+
+.item8 p{
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 3.5rem;
+}
